@@ -3,10 +3,8 @@
     --cor-principal: #0d1527;
     --cor-secundaria: #17223b; 
     --cor-destaque: #00f0ff;
-    --cor-destaque-hover: #7000ff;
     --cor-texto: #e2f1f8;
-    --cor-subtexto: #94a3b8;
-    --borda-glow: rgba(0, 240, 255, 0.2);
+    --borda-glow: rgba(0, 240, 255, 0.25);
 }
 
 * {
@@ -37,7 +35,6 @@ body {
     padding: 35px 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5),
                 0 0 20px rgba(0, 240, 255, 0.1);
-    backdrop-filter: blur(10px);
 }
 
 h1 {
@@ -67,7 +64,7 @@ h1 {
 button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 16px 20px;
     font-size: 0.95rem;
@@ -93,16 +90,16 @@ button:active {
 }
 
 .caixa-resultado {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .texto-resultado {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     line-height: 1.7;
     color: var(--cor-texto);
     text-align: justify;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.25);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     border-left: 4px solid var(--cor-destaque);
 }
